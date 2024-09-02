@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    box-sizing: border-box;
+}
+
+.menu{
+    padding: 50px 20px;
+}
+
+.menu h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.content-menu{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 50px 20px;
+    justify-content: center;
+}
+
+.content-menu .card{
+    background-color: #e079a3;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.content-menu .card img{
+    width: 100%;
+    max-width: 100%;
+    height: 20vh;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 10px;
+}

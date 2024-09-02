@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+background-color: black;
+  color: pink;
+}
+
+/* Style the header */
+header {
+
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(244, 159, 224);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: black;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #954040;
+  padding: 20px;
+
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: rgb(203, 124, 162);
+  height: 300px; /* only for demonstration, should be removed */
+  color: black;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #c3347e;
+  padding: 10px;
+  text-align: center;
+  color: rgb(241, 71, 71);
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>LIFI FASHION</h2>
+ 
+<p></p>
+
+<header>
+</li><a href="./page-1.html">HOME</a></li>
+    </li><a href="./PAGE2.HTML">ABOUT</a></li>
+  </li><a href="./page-3.html">PRODUCT</a></li>
+  </li><a href="contact.html">CONTACT</a></li>
+  <h2>FASHION WANITA</h2>
+</header>
+
+<section>
+  <nav>
+    <img src="KE2.jpg" width="100%" height="100%">
+  
+  </nav>
+  
+  <article>
+    <h1>PENGERTIAN FASHION</h1>
+    <p>fashion secara khusus berarti gaya dalam berpakaian yang digunakan sehari-hari oleh seseorang,mau itu didalam kehidupan 
+      keseharian atau ketika orang tersebut menghadiri acara tertentu yang bertujuan menunjang penampilannya.   
+    <h1>DEFINISI FASHION </h1>
+    <p>gaya pakaian yang populer di suatu budaya atau merupakan suatu mode.Ada orang yang berpendapat bahwa fashion adalah gaya
+      pakaian yang dapat menentukan penampilan seseorang fashion pada dasarnya dimulai dalam bahasa inggris,yang berarti fashion 
+      yang berarti model,mode,metode,gaya atau bentuk kebiasaan.Mode saat ini sangat dekat dengan gaya hidup.
+        </p>
+  </article>
+</section>
+
+<footer>
+  <p>FASHION</p>
+</footer>
+
+</body>
+</html>
+
